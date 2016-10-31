@@ -36,3 +36,8 @@ Git clone combines steps a), b) and c)
 	a) To initialize a local git repo use 'git init' it will make the folder you are currently in a git repo.
 	b) To link a remote repo to your local repo use 'git remote add name_it_here repo_url_here'. To verify use 'git remote -v'.
 	c) To get the repo files git pull name_it_here branch_name. Git pull combines 'git fetch' and 'git merge' functions.		
+------------------------------------------------------
+* Use git 'add .' to add modified files.
+  You can do 'git add -u' so that it will stage the modified and deleted fils. 
+  You can also do 'git commit -a' to commit only the modified and deleted files.
+------------------------------------------------------
