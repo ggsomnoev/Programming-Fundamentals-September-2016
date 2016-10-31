@@ -1,0 +1,38 @@
+Useful links:
+------------------------------------------------------
+Git Installer:	https://git-scm.com/download/win
+Guide link: 	https://www.youtube.com/watch?v=xKVlZ3wFVKA&list=PL5-da3qGB5IBLMp7LtN8Nc3Efd4hJq0kD&index=1
+		http://www.dataschool.io/git-quick-reference-for-beginners/
+Reference link: http://gitref.org/index.html
+------------------------------------------------------
+
+* Download and install Git on your machine. Use the download link from above.
+* You can use git from the Git Bash or Windows CMD. Git Bash is better option.
+* Create a working dir where you plan to store your git files and clone a repo:
+		- to check which dir you are currently in use 'dir', it will display the files and folders inside the current directory. 
+		- to change to different directory use cd 'dir directory_name'
+		- to go back use cd ..
+		- to create a directory use 'mkdir directory_name' or you can manually go there and create the folder
+	Example: If you want to store your files in D:\Git\		
+	1) Navigate to d:\ with 'cd d:'		
+	2) Verify that you are in d: with dir
+	3) Create a dir:'mkdir Git' and verify with 'dir'. Change to the dir: 'cd Git'.
+	4) Clone your git repo: 'git close repo_url'.
+	5) 'cd repo_name' you should see /d/git/QAFundTWP (master) and the repo files inside
+* To push a file into the repository: 
+	1) add the file with 'git add file_name'
+	2) use 'git status' to verify - it should be in a green light
+	3) use 'git commit -m "message about your commit here"
+	4) use 'git push origin master' to push the file into the repo.
+* To remove a file from the repository
+	1) git rm file_name
+	2) git commit -m "message here"
+	3) git push origin master
+* To sync your repo with the remote repo
+	1) your local repository (on your pc) have to be synced at all time with the remote github repo. 
+	To sync it use: git pull origin master
+------------------------------------------------------
+Git clone combines steps a), b) and c)
+	a) To initialize a local git repo use 'git init' it will make the folder you are currently in a git repo.
+	b) To link a remote repo to your local repo use 'git remote add name_it_here repo_url_here'. To verify use 'git remote -v'.
+	c) To get the repo files git pull name_it_here branch_name. Git pull combines 'git fetch' and 'git merge' functions.		
