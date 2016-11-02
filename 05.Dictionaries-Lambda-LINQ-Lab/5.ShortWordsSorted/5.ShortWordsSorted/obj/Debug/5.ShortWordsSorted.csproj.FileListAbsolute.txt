@@ -1,0 +1,6 @@
+D:\VS-Proj\5.ShortWordsSorted\5.ShortWordsSorted\bin\Debug\5.ShortWordsSorted.exe.config
+D:\VS-Proj\5.ShortWordsSorted\5.ShortWordsSorted\bin\Debug\5.ShortWordsSorted.exe
+D:\VS-Proj\5.ShortWordsSorted\5.ShortWordsSorted\bin\Debug\5.ShortWordsSorted.pdb
+D:\VS-Proj\5.ShortWordsSorted\5.ShortWordsSorted\obj\Debug\5.ShortWordsSorted.csprojResolveAssemblyReference.cache
+D:\VS-Proj\5.ShortWordsSorted\5.ShortWordsSorted\obj\Debug\5.ShortWordsSorted.exe
+D:\VS-Proj\5.ShortWordsSorted\5.ShortWordsSorted\obj\Debug\5.ShortWordsSorted.pdb
