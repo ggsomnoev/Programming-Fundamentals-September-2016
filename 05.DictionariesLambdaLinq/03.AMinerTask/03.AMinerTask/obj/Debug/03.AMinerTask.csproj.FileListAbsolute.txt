@@ -1,0 +1,6 @@
+D:\VS-Proj\05.DictionariesLambdaLinq\03.AMinerTask\03.AMinerTask\bin\Debug\03.AMinerTask.exe.config
+D:\VS-Proj\05.DictionariesLambdaLinq\03.AMinerTask\03.AMinerTask\bin\Debug\03.AMinerTask.exe
+D:\VS-Proj\05.DictionariesLambdaLinq\03.AMinerTask\03.AMinerTask\bin\Debug\03.AMinerTask.pdb
+D:\VS-Proj\05.DictionariesLambdaLinq\03.AMinerTask\03.AMinerTask\obj\Debug\03.AMinerTask.csprojResolveAssemblyReference.cache
+D:\VS-Proj\05.DictionariesLambdaLinq\03.AMinerTask\03.AMinerTask\obj\Debug\03.AMinerTask.exe
+D:\VS-Proj\05.DictionariesLambdaLinq\03.AMinerTask\03.AMinerTask\obj\Debug\03.AMinerTask.pdb

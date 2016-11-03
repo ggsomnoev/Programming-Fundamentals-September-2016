@@ -1,0 +1,5 @@
+D:\VS-Proj\05.DictionariesLambdaLinq\04.FixEmails\04.FixEmails\bin\Debug\04.FixEmails.exe.config
+D:\VS-Proj\05.DictionariesLambdaLinq\04.FixEmails\04.FixEmails\bin\Debug\04.FixEmails.exe
+D:\VS-Proj\05.DictionariesLambdaLinq\04.FixEmails\04.FixEmails\bin\Debug\04.FixEmails.pdb
+D:\VS-Proj\05.DictionariesLambdaLinq\04.FixEmails\04.FixEmails\obj\Debug\04.FixEmails.exe
+D:\VS-Proj\05.DictionariesLambdaLinq\04.FixEmails\04.FixEmails\obj\Debug\04.FixEmails.pdb
