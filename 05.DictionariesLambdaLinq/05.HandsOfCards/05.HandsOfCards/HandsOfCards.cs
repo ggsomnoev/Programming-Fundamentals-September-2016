@@ -12,29 +12,41 @@ namespace _05.HandsOfCards
         {
             int points = 0, power, type;
             string[] item;
-            Dictionary<string, int> records = new Dictionary<string, int>();
+            Dictionary<string, List<string>> records = new Dictionary<string, List<string>>();
             string elem = Console.ReadLine();
             while (elem != "JOKER" && elem != "joker")
             {
-                item = elem.Split(new char[] { ' ', ',', ':' }).Where(x => x != "").ToArray();
-                for (int i = 1; i < item.Length; i++)
+                item = elem.Split(new char[] { ' ', ',', ':' }).Where(x => x != "").Distinct().ToArray();
+
+                if (records.ContainsKey(item[0]))
                 {
-                    type = CardType(item[i].ToLower().Substring(0, item[i].Length - 1));
-                    power = CardPower(item[i].ToLower()[item[i].Length - 1]);
-                    points += type + power; 
-                }
-                if (records.ContainsKey(item[0])) {
-                    records[item[0]] += points;
+                    //Console.WriteLine("trying to add: {0}", string.Join(" | ", item.Skip(1).Take(item.Length - 1).ToList()));
+                    //Console.WriteLine("current entry: {0}", string.Join(" | ", records[item[0]]));
+                    //Console.WriteLine("result entry: {0}", string.Join(" | ",
+                    //    (records[item[0]].Concat(item.Skip(1).Take(item.Length - 1).ToList()).Distinct())
+                    //));
+                    records[item[0]] = (records[item[0]].Concat(item.Skip(1).Take(item.Length - 1).ToList())).Distinct().ToList();
                 }
                 else
                 {
-                    records[item[0]] = points;
+                    records[item[0]] = item.Skip(1).Take(item.Length - 1).ToList();
                 }
-                //Console.WriteLine("{0}", string.Join(" | ", item));
-                Console.WriteLine("{0} -> {1}", item[0], records[item[0]]);
                 elem = Console.ReadLine();
+            }
+
+            foreach (var a in records)
+            {
+                //Console.WriteLine("{0} => {1}", a.Key, string.Join(" | ", a.Value));
+                foreach (var b in a.Value)
+                {
+                    type = CardType(b.ToLower().Substring(0, b.Length - 1));
+                    power = CardPower(b.ToLower()[b.Length - 1]);
+                    points += type * power;
+                }
+                Console.WriteLine("{0} => {1}", a.Key, points);
                 points = 0;
             }
+            
         }
         static int CardType(string card) {
             switch (card)
