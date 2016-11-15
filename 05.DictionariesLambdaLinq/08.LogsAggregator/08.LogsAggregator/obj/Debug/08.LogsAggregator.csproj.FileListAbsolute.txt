@@ -1,0 +1,6 @@
+D:\VS-Proj\08.LogsAggregator\08.LogsAggregator\bin\Debug\08.LogsAggregator.exe.config
+D:\VS-Proj\08.LogsAggregator\08.LogsAggregator\bin\Debug\08.LogsAggregator.exe
+D:\VS-Proj\08.LogsAggregator\08.LogsAggregator\bin\Debug\08.LogsAggregator.pdb
+D:\VS-Proj\08.LogsAggregator\08.LogsAggregator\obj\Debug\08.LogsAggregator.csprojResolveAssemblyReference.cache
+D:\VS-Proj\08.LogsAggregator\08.LogsAggregator\obj\Debug\08.LogsAggregator.exe
+D:\VS-Proj\08.LogsAggregator\08.LogsAggregator\obj\Debug\08.LogsAggregator.pdb
