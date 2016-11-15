@@ -1,1 +1,6 @@
-D:\VS-Proj\05.DictionariesLambdaLinq\06.UserLogs\06.UserLogs\bin\Debug\06.UserLogs.exe.config
+c:\users\ggsomnoev\documents\visual studio 2015\Projects\06.UserLogs\06.UserLogs\bin\Debug\06.UserLogs.exe.config
+c:\users\ggsomnoev\documents\visual studio 2015\Projects\06.UserLogs\06.UserLogs\bin\Debug\06.UserLogs.exe
+c:\users\ggsomnoev\documents\visual studio 2015\Projects\06.UserLogs\06.UserLogs\bin\Debug\06.UserLogs.pdb
+c:\users\ggsomnoev\documents\visual studio 2015\Projects\06.UserLogs\06.UserLogs\obj\Debug\06.UserLogs.csprojResolveAssemblyReference.cache
+c:\users\ggsomnoev\documents\visual studio 2015\Projects\06.UserLogs\06.UserLogs\obj\Debug\06.UserLogs.exe
+c:\users\ggsomnoev\documents\visual studio 2015\Projects\06.UserLogs\06.UserLogs\obj\Debug\06.UserLogs.pdb
