@@ -43,24 +43,18 @@ namespace _07.PopulationCounter
                 inputLine = Console.ReadLine();
             }
 
-            foreach (var item in pop)
-            {
-                summed[item.Key] = item.Value.Values.Sum();
-            }
-            var test = from entr in summed orderby entr.Value descending select entr;
+            var sortedContries = pop.OrderByDescending(x => x.Value.Values.Sum());
 
-            foreach (var item in test)
+            foreach (var outer in sortedContries)
             {
-                Console.WriteLine("{0} (total population: {1})", item.Key, item.Value);
-                foreach (var outer in pop)
+                var sortedCities = outer.Value.OrderByDescending(x => x.Value);
+                Console.WriteLine("{0} (total population: {1})", outer.Key, outer.Value.Sum(c => c.Value));
+
+                foreach (var inner in sortedCities)
                 {
-                    foreach (var inner in outer.Value)
-                    {
-                        Console.WriteLine("=>{0}: {1}", inner.Key, inner.Value);
-                    }
+                    Console.WriteLine("=>{0}: {1}", inner.Key, inner.Value);
                 }
             }
-
         }
     }
 }
