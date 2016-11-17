@@ -1,0 +1,6 @@
+D:\VS-Proj\05.DictionariesLambdaLinq\10.SrubskoUnleashed\10.SrubskoUnleashed\bin\Debug\10.SrubskoUnleashed.exe.config
+D:\VS-Proj\05.DictionariesLambdaLinq\10.SrubskoUnleashed\10.SrubskoUnleashed\bin\Debug\10.SrubskoUnleashed.exe
+D:\VS-Proj\05.DictionariesLambdaLinq\10.SrubskoUnleashed\10.SrubskoUnleashed\bin\Debug\10.SrubskoUnleashed.pdb
+D:\VS-Proj\05.DictionariesLambdaLinq\10.SrubskoUnleashed\10.SrubskoUnleashed\obj\Debug\10.SrubskoUnleashed.csprojResolveAssemblyReference.cache
+D:\VS-Proj\05.DictionariesLambdaLinq\10.SrubskoUnleashed\10.SrubskoUnleashed\obj\Debug\10.SrubskoUnleashed.exe
+D:\VS-Proj\05.DictionariesLambdaLinq\10.SrubskoUnleashed\10.SrubskoUnleashed\obj\Debug\10.SrubskoUnleashed.pdb
