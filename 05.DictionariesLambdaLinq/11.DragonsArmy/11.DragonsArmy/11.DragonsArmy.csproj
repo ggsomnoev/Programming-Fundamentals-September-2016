@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{29F75E5E-2CF2-4BB2-B7EA-FF951297D334}</ProjectGuid>
+    <ProjectGuid>{13FC8123-69C8-438E-88C5-B799739E3D3D}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_10.SrubskoUnleashed</RootNamespace>
-    <AssemblyName>10.SrubskoUnleashed</AssemblyName>
+    <RootNamespace>_11.DragonsArmy</RootNamespace>
+    <AssemblyName>11.DragonsArmy</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="SrubskoUnleashed.cs" />
+    <Compile Include="DragonsArmy.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

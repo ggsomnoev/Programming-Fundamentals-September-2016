@@ -1,0 +1,6 @@
+D:\VS-Proj\05.DictionariesLambdaLinq\11.DragonsArmy\11.DragonsArmy\bin\Debug\11.DragonsArmy.exe.config
+D:\VS-Proj\05.DictionariesLambdaLinq\11.DragonsArmy\11.DragonsArmy\bin\Debug\11.DragonsArmy.exe
+D:\VS-Proj\05.DictionariesLambdaLinq\11.DragonsArmy\11.DragonsArmy\bin\Debug\11.DragonsArmy.pdb
+D:\VS-Proj\05.DictionariesLambdaLinq\11.DragonsArmy\11.DragonsArmy\obj\Debug\11.DragonsArmy.csprojResolveAssemblyReference.cache
+D:\VS-Proj\05.DictionariesLambdaLinq\11.DragonsArmy\11.DragonsArmy\obj\Debug\11.DragonsArmy.exe
+D:\VS-Proj\05.DictionariesLambdaLinq\11.DragonsArmy\11.DragonsArmy\obj\Debug\11.DragonsArmy.pdb
