@@ -1,0 +1,6 @@
+D:\VS-Proj\06.ObjectsAndClasses\10.StudentsGroups\10.StudentsGroups\bin\Debug\10.StudentsGroups.exe.config
+D:\VS-Proj\06.ObjectsAndClasses\10.StudentsGroups\10.StudentsGroups\bin\Debug\10.StudentsGroups.exe
+D:\VS-Proj\06.ObjectsAndClasses\10.StudentsGroups\10.StudentsGroups\bin\Debug\10.StudentsGroups.pdb
+D:\VS-Proj\06.ObjectsAndClasses\10.StudentsGroups\10.StudentsGroups\obj\Debug\10.StudentsGroups.csprojResolveAssemblyReference.cache
+D:\VS-Proj\06.ObjectsAndClasses\10.StudentsGroups\10.StudentsGroups\obj\Debug\10.StudentsGroups.exe
+D:\VS-Proj\06.ObjectsAndClasses\10.StudentsGroups\10.StudentsGroups\obj\Debug\10.StudentsGroups.pdb
