@@ -46,14 +46,15 @@ namespace _10.StudentsGroups
                     groups.Add(town);
                 }
             }
-
+            groups = groups.OrderBy(x => x.Name).ToList();
             foreach (var outer in groups)
             {
-                Console.WriteLine("{0}:", outer.Name);
-                for (int i = 0; i < outer.Students.Count; i++)
-                {
-                    Console.WriteLine("{0}, ".TrimEnd(new char[] { ' ', ',' }), outer.Students[i].Email);
-                }
+                outer.Students = outer.Students.OrderBy(x => x.Date).ThenBy(x => x.Name).ThenBy(x => x.Email).ToList();
+                //Console.WriteLine("{0}:", outer.Name);
+                //for (int i = 0; i < outer.Students.Count; i++)
+                //{
+                //    Console.WriteLine("{0}, ".TrimEnd(new char[] { ' ', ',' }), outer.Students[i].Email);
+                //}
             }
 
             double totalGroups = groups.Select(x => (Math.Ceiling(Convert.ToDouble(x.Students.Count) / x.SeatsCount))).Sum();
